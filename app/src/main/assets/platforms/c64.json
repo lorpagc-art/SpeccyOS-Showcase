@@ -1,0 +1,19 @@
+{
+  "id": "c64",
+  "name": "Commodore 64",
+  "shortName": "C64",
+  "icon": "ic_c64",
+  "wallpaper": "bg_c64",
+  "romPath": "/storage/emulated/0/ROMS/C64",
+  "acceptedExtensions": [".d64", ".g64", ".prg", ".t64", ".tap", ".zip"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "powersave",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "vice_x64sc"
+  }
+}

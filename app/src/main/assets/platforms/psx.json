@@ -1,0 +1,23 @@
+{
+  "id": "psx",
+  "name": "Sony PlayStation",
+  "shortName": "PSX",
+  "icon": "ic_psx",
+  "wallpaper": "bg_psx",
+  "romPath": "/storage/emulated/0/ROMS/PSX",
+  "acceptedExtensions": [".cue", ".bin", ".chd", ".pbp"],
+  "biosInfo": {
+    "files": ["scph5501.bin", "scph1001.bin"],
+    "description": "BIOS de PS1 recomendada para mayor compatibilidad."
+  },
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "pcsx_rearmed"
+  }
+}

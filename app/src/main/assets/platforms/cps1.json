@@ -1,0 +1,19 @@
+{
+  "id": "cps1",
+  "name": "Capcom Play System 1",
+  "shortName": "CPS1",
+  "icon": "ic_cps1",
+  "wallpaper": "bg_cps1",
+  "romPath": "/storage/emulated/0/ROMS/CPS1",
+  "acceptedExtensions": [".zip", ".7z"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "fbneo"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "n64",
+  "name": "Nintendo 64",
+  "shortName": "N64",
+  "icon": "ic_n64",
+  "wallpaper": "bg_n64",
+  "romPath": "/storage/emulated/0/ROMS/N64",
+  "acceptedExtensions": [".z64", ".n64", ".v64", ".zip", ".7z"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "mupen64plus_next"
+  }
+}

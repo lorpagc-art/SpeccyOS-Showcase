@@ -1,0 +1,9 @@
+{
+  "id": "xbox",
+  "name": "Microsoft Xbox",
+  "manufacturer": "Microsoft",
+  "year": "2001",
+  "description": "La primera consola de Microsoft, famosa por juegos como Halo, Fable y Ninja Gaiden. Presentaba un hardware similar a un PC con un disco duro integrado, lo que revolucionó el juego en consola. Su emulación es extremadamente exigente.",
+  "extensions": [".iso", ".xiso"],
+  "folder": "xbox"
+}

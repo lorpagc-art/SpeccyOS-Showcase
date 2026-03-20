@@ -1,0 +1,20 @@
+{
+  "id": "nds",
+  "name": "Nintendo DS",
+  "shortName": "NDS",
+  "icon": "ic_nds",
+  "wallpaper": "bg_nds",
+  "romPath": "/storage/emulated/0/ROMS/NDS",
+  "acceptedExtensions": [".nds", ".zip", ".7z"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "gpuFreq": "medium",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.dsemu.drastic",
+    "activity": "com.dsemu.drastic.DraSticActivity",
+    "intentAction": "android.intent.action.VIEW"
+  }
+}

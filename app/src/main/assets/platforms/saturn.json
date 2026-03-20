@@ -1,0 +1,24 @@
+{
+  "id": "saturn",
+  "name": "Sega Saturn",
+  "shortName": "SAT",
+  "icon": "ic_saturn",
+  "wallpaper": "bg_saturn",
+  "romPath": "/storage/emulated/0/ROMS/SATURN",
+  "acceptedExtensions": [".chd", ".cue", ".iso", ".bin"],
+  "biosInfo": {
+    "files": ["saturn_bios.bin", "stvbios.zip"],
+    "description": "Se requiere la BIOS de Saturn para arrancar juegos."
+  },
+  "performanceProfile": {
+    "mode": "PERFORMANCE",
+    "cpuGovernor": "performance",
+    "gpuFreq": "max",
+    "fanSpeed": 2
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "yabasanshiro"
+  }
+}

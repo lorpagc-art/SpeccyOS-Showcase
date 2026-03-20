@@ -1,0 +1,19 @@
+{
+  "id": "fbneo",
+  "name": "FinalBurn Neo",
+  "shortName": "FBNEO",
+  "icon": "ic_fbneo",
+  "wallpaper": "bg_fbneo",
+  "romPath": "/storage/emulated/0/ROMS/FBNEO",
+  "acceptedExtensions": [".zip", ".7z"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "fbneo"
+  }
+}

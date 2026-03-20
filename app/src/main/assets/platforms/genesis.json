@@ -1,0 +1,19 @@
+{
+  "id": "genesis",
+  "name": "Sega Genesis",
+  "shortName": "GEN",
+  "icon": "ic_genesis",
+  "wallpaper": "bg_genesis",
+  "romPath": "/storage/emulated/0/ROMS/GENESIS",
+  "acceptedExtensions": [".md", ".gen", ".bin", ".zip"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "genesis_plus_gx"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gamegear",
+  "name": "Sega Game Gear",
+  "shortName": "GG",
+  "icon": "ic_gamegear",
+  "wallpaper": "bg_gamegear",
+  "romPath": "/storage/emulated/0/ROMS/GAMEGEAR",
+  "acceptedExtensions": [".gg", ".bin", ".zip"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "powersave",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "genesis_plus_gx"
+  }
+}

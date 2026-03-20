@@ -1,0 +1,26 @@
+{
+  "id": "gamecube",
+  "name": "Nintendo GameCube",
+  "shortName": "GC",
+  "icon": "ic_gamecube",
+  "wallpaper": "bg_gamecube",
+  "acceptedExtensions": [".iso", ".gcm", ".rvz", ".gcz", ".m3u"],
+  "performanceProfile": {
+    "mode": "PERFORMANCE",
+    "cpuGovernor": "performance",
+    "gpuFreq": "max",
+    "fanSpeed": 2,
+    "lowLatencyMode": true
+  },
+  "launcher": {
+    "package": "org.dolphinemu.dolphinemu",
+    "activity": "org.dolphinemu.dolphinemu.ui.main.MainActivity",
+    "intentAction": "android.intent.action.MAIN",
+    "extraArgs": "-e AutoStartFile {file.uri}"
+  },
+  "uiOptions": {
+    "defaultLayout": "horizontal",
+    "gridColumns": 3,
+    "showLabels": true
+  }
+}

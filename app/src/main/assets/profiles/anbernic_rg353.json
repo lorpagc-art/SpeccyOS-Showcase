@@ -1,0 +1,30 @@
+{
+  "soc": "Rockchip RK3566",
+  "modes": {
+    "ECO": {
+      "cpu_cluster0_gov": "powersave",
+      "gpu_governor": "powersave",
+      "description": "Modo ahorro RK. Máxima eficiencia para emulación de 8 y 16 bits."
+    },
+    "BALANCED": {
+      "cpu_cluster0_gov": "schedutil",
+      "gpu_governor": "simple_ondemand",
+      "description": "Rendimiento equilibrado para uso general y sistemas de 32 bits."
+    },
+    "PERFORMANCE": {
+      "cpu_cluster0_gov": "performance",
+      "gpu_governor": "performance",
+      "description": "Modo Pro. Frecuencias estables para PSP y Dreamcast."
+    },
+    "EXTREME": {
+      "cpu_cluster0_gov": "performance",
+      "gpu_governor": "performance",
+      "touch_boost": true,
+      "description": "Máximo potencial RK. Fuerza bruta para Saturn y ports complejos."
+    }
+  },
+  "sysfs_mapping": {
+    "cpu0_path": "/sys/devices/system/cpu/cpufreq/policy0/scaling_governor",
+    "gpu_path": "/sys/class/devfreq/fb000000.gpu/governor"
+  }
+}

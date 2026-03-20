@@ -1,0 +1,26 @@
+{
+  "id": "snes",
+  "name": "Super Nintendo",
+  "shortName": "SNES",
+  "icon": "ic_snes",
+  "wallpaper": "bg_snes",
+  "romPath": "/storage/emulated/0/ROMS/SNES",
+  "acceptedExtensions": [".smc", ".sfc", ".fig", ".swc", ".zip", ".7z"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "gpuFreq": "medium",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "snes9x",
+    "extraArgs": "-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg"
+  },
+  "uiOptions": {
+    "defaultLayout": "grid",
+    "gridColumns": 4,
+    "showLabels": true
+  }
+}

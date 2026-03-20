@@ -1,0 +1,26 @@
+{
+  "id": "nes",
+  "name": "Nintendo Entertainment System",
+  "shortName": "NES",
+  "icon": "ic_nes",
+  "wallpaper": "bg_nes",
+  "romPath": "/storage/emulated/0/ROMS/NES",
+  "acceptedExtensions": [".nes", ".fds", ".unf", ".unif", ".zip", ".7z"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "schedutil",
+    "gpuFreq": "low",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "mesen",
+    "extraArgs": "-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg"
+  },
+  "uiOptions": {
+    "defaultLayout": "grid",
+    "gridColumns": 5,
+    "showLabels": false
+  }
+}

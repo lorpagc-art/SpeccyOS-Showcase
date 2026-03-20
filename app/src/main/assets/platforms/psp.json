@@ -1,0 +1,19 @@
+{
+  "id": "psp",
+  "name": "PlayStation Portable",
+  "shortName": "PSP",
+  "icon": "ic_psp",
+  "wallpaper": "bg_psp",
+  "romPath": "/storage/emulated/0/ROMS/PSP",
+  "acceptedExtensions": [".iso", ".cso", ".pbp"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "org.ppsspp.ppsspp",
+    "activity": "org.ppsspp.ppsspp.PpssppActivity",
+    "intentAction": "android.intent.action.VIEW"
+  }
+}

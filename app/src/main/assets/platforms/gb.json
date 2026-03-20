@@ -1,0 +1,21 @@
+{
+  "id": "gb",
+  "name": "Game Boy",
+  "shortName": "GB",
+  "icon": "ic_gb",
+  "wallpaper": "bg_gb",
+  "romPath": "/storage/emulated/0/ROMS/GB",
+  "acceptedExtensions": [".gb", ".dmg", ".zip", ".7z"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "powersave",
+    "gpuFreq": "low",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "gambatte",
+    "extraArgs": "-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "dos",
+  "name": "DOS",
+  "shortName": "DOS",
+  "icon": "ic_dos",
+  "wallpaper": "bg_dos",
+  "romPath": "/storage/emulated/0/ROMS/DOS",
+  "acceptedExtensions": [".exe", ".com", ".bat", ".conf", ".zip"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "dosbox_pure"
+  }
+}

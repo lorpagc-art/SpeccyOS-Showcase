@@ -1,0 +1,19 @@
+{
+  "id": "cps2",
+  "name": "Capcom Play System 2",
+  "shortName": "CPS2",
+  "icon": "ic_cps2",
+  "wallpaper": "bg_cps2",
+  "romPath": "/storage/emulated/0/ROMS/CPS2",
+  "acceptedExtensions": [".zip", ".7z"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "fbneo"
+  }
+}

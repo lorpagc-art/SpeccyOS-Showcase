@@ -1,0 +1,23 @@
+{
+  "id": "amiga",
+  "name": "Commodore Amiga",
+  "shortName": "AMIGA",
+  "icon": "ic_amiga",
+  "wallpaper": "bg_amiga",
+  "romPath": "/storage/emulated/0/ROMS/AMIGA",
+  "acceptedExtensions": [".adf", ".lha", ".hdf", ".ipf"],
+  "biosInfo": {
+    "files": ["kick31.rom", "kick13.rom"],
+    "description": "Se requieren los archivos Kickstart para emular Amiga correctamente."
+  },
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "puae"
+  }
+}

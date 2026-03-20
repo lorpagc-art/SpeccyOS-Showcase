@@ -1,0 +1,22 @@
+{
+  "id": "zx_spectrum",
+  "name": "ZX Spectrum",
+  "shortName": "SPECCY",
+  "icon": "ic_zx_spectrum",
+  "wallpaper": "bg_zx_spectrum",
+  "romPath": "/storage/emulated/0/ROMS/ZX_SPECTRUM",
+  "acceptedExtensions": [".tap", ".tzx", ".z80", ".zip"],
+  "recommendedShader": "shaders/crt-lonescreen.glslp",
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "schedutil",
+    "gpuFreq": "low",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "fuse",
+    "extraArgs": "-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg"
+  }
+}

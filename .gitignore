@@ -1,0 +1,49 @@
+# Android Studio & Gradle
+.gradle/
+build/
+app/build/
+captures/
+*.iml
+.idea/
+local.properties
+
+# Seguridad
+app/google-services.json
+app/client_secret*.json
+*.jks
+*.keystore
+gradle.properties
+auth.json
+secrets.xml
+
+# Bloqueo de compilación externa (Showcase Mode)
+build.gradle
+build.gradle.kts
+settings.gradle
+settings.gradle.kts
+gradle/
+gradlew
+gradlew.bat
+
+# EXCLUIR ARCHIVOS PESADOS (Bloquean la subida a GitHub)
+*.apk
+*.cdi
+*.iso
+*.zip
+app/src/main/assets/contentimg/ROMs/
+emulators/
+
+# Archivos de sistema y temporales
+*.log
+*.logcat
+*.hprof
+.DS_Store
+Thumbs.db
+
+# Reportes de Inspección y Logs
+/*.xml
+hardware_info.txt
+console_security.txt
+Sample/
+dumped files/
+.kotlin/

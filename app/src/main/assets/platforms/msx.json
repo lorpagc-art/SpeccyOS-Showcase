@@ -1,0 +1,19 @@
+{
+  "id": "msx",
+  "name": "MSX",
+  "shortName": "MSX",
+  "icon": "ic_msx",
+  "wallpaper": "bg_msx",
+  "romPath": "/storage/emulated/0/ROMS/MSX",
+  "acceptedExtensions": [".rom", ".dsk", ".cas", ".mx1", ".mx2", ".zip"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "powersave",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "bluemsx"
+  }
+}

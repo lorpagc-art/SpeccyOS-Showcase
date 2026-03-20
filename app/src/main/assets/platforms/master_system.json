@@ -1,0 +1,19 @@
+{
+  "id": "master_system",
+  "name": "Sega Master System",
+  "shortName": "SMS",
+  "icon": "ic_sms",
+  "wallpaper": "bg_sms",
+  "romPath": "/storage/emulated/0/ROMS/MASTER_SYSTEM",
+  "acceptedExtensions": [".sms", ".bin", ".zip"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "powersave",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "genesis_plus_gx"
+  }
+}

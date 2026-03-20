@@ -1,0 +1,19 @@
+{
+  "id": "mame",
+  "name": "MAME",
+  "shortName": "MAME",
+  "icon": "ic_mame",
+  "wallpaper": "bg_mame",
+  "romPath": "/storage/emulated/0/ROMS/MAME",
+  "acceptedExtensions": [".zip", ".7z", ".chd"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "mame"
+  }
+}

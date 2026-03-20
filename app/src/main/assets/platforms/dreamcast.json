@@ -1,0 +1,23 @@
+{
+  "id": "dreamcast",
+  "name": "Sega Dreamcast",
+  "shortName": "DC",
+  "icon": "ic_dreamcast",
+  "wallpaper": "bg_dreamcast",
+  "romPath": "/storage/emulated/0/ROMS/DREAMCAST",
+  "acceptedExtensions": [".cdi", ".gdi", ".chd", ".zip"],
+  "biosInfo": {
+    "files": ["dc_boot.bin", "dc_flash.bin"],
+    "description": "Dreamcast requiere BIOS para emular correctamente la GD-ROM."
+  },
+  "performanceProfile": {
+    "mode": "PERFORMANCE",
+    "cpuGovernor": "performance",
+    "fanSpeed": 2
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "flycast"
+  }
+}

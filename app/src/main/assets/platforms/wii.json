@@ -1,0 +1,20 @@
+{
+  "id": "wii",
+  "name": "Nintendo Wii",
+  "shortName": "WII",
+  "icon": "ic_wii",
+  "wallpaper": "bg_wii",
+  "romPath": "/storage/emulated/0/ROMS/WII",
+  "acceptedExtensions": [".iso", ".wbfs", ".rvz"],
+  "performanceProfile": {
+    "mode": "PERFORMANCE",
+    "cpuGovernor": "performance",
+    "gpuFreq": "max",
+    "fanSpeed": 2
+  },
+  "launcher": {
+    "package": "org.dolphinemu.dolphinemu",
+    "activity": "org.dolphinemu.dolphinemu.ui.main.MainActivity",
+    "extraArgs": "-e AutoStartFile {file.uri}"
+  }
+}

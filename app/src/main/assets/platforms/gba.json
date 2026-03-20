@@ -1,0 +1,22 @@
+{
+  "id": "gba",
+  "name": "Game Boy Advance",
+  "shortName": "GBA",
+  "icon": "ic_gba",
+  "wallpaper": "bg_gba",
+  "romPath": "/storage/emulated/0/ROMS/GBA",
+  "acceptedExtensions": [".gba", ".zip", ".7z"],
+  "recommendedShader": "shaders/gba-color.glslp",
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "schedutil",
+    "gpuFreq": "low",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "mgba",
+    "extraArgs": "-e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg"
+  }
+}

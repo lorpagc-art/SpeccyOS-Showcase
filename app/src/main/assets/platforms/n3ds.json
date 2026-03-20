@@ -1,0 +1,22 @@
+{
+  "id": "3ds",
+  "name": "Nintendo 3DS",
+  "shortName": "3DS",
+  "icon": "ic_3ds",
+  "wallpaper": "bg_3ds",
+  "romPath": "/storage/emulated/0/ROMS/3DS",
+  "acceptedExtensions": [".3ds", ".cia", ".app"],
+  "biosInfo": {
+    "files": ["aes_keys.txt"],
+    "description": "Se requieren las llaves AES para desencriptar juegos de 3DS."
+  },
+  "performanceProfile": {
+    "mode": "PERFORMANCE",
+    "cpuGovernor": "performance",
+    "fanSpeed": 2
+  },
+  "launcher": {
+    "package": "org.citra.citra_emu",
+    "activity": "org.citra.citra_emu.ui.main.MainActivity"
+  }
+}

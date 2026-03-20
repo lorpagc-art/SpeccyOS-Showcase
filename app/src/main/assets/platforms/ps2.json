@@ -1,0 +1,27 @@
+{
+  "id": "ps2",
+  "name": "PlayStation 2",
+  "shortName": "PS2",
+  "icon": "ic_ps2",
+  "wallpaper": "bg_ps2",
+  "romPath": "/storage/emulated/0/ROMS/PS2",
+  "acceptedExtensions": [".iso", ".chd", ".cso", ".bin", ".gz"],
+  "performanceProfile": {
+    "mode": "PERFORMANCE",
+    "cpuGovernor": "performance",
+    "gpuFreq": "max",
+    "fanSpeed": 3,
+    "lowLatencyMode": true
+  },
+  "launcher": {
+    "package": "com.ps2.aethersx2",
+    "activity": "com.ps2.aethersx2.MainActivity",
+    "intentAction": "android.intent.action.VIEW",
+    "extraArgs": "-e bootPath {file.path}"
+  },
+  "uiOptions": {
+    "defaultLayout": "horizontal",
+    "gridColumns": 3,
+    "showLabels": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "neogeo",
+  "name": "SNK Neo Geo",
+  "shortName": "NEOGEO",
+  "icon": "ic_neogeo",
+  "wallpaper": "bg_neogeo",
+  "romPath": "/storage/emulated/0/ROMS/NEOGEO",
+  "acceptedExtensions": [".zip", ".7z"],
+  "biosInfo": {
+    "files": ["neogeo.zip"],
+    "description": "El archivo neogeo.zip debe estar en la carpeta de ROMs o en la carpeta BIOS."
+  },
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "fbneo"
+  }
+}

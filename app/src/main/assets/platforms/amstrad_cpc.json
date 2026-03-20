@@ -1,0 +1,19 @@
+{
+  "id": "amstrad_cpc",
+  "name": "Amstrad CPC",
+  "shortName": "CPC",
+  "icon": "ic_amstrad",
+  "wallpaper": "bg_amstrad",
+  "romPath": "/storage/emulated/0/ROMS/AMSTRAD_CPC",
+  "acceptedExtensions": [".dsk", ".sna", ".cdt", ".zip"],
+  "performanceProfile": {
+    "mode": "ECO",
+    "cpuGovernor": "powersave",
+    "fanSpeed": 0
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "cap32"
+  }
+}

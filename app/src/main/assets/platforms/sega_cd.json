@@ -1,0 +1,19 @@
+{
+  "id": "sega_cd",
+  "name": "Sega CD",
+  "shortName": "SCD",
+  "icon": "ic_sega_cd",
+  "wallpaper": "bg_sega_cd",
+  "romPath": "/storage/emulated/0/ROMS/SEGA_CD",
+  "acceptedExtensions": [".iso", ".chd", ".cue", ".bin"],
+  "performanceProfile": {
+    "mode": "BALANCED",
+    "cpuGovernor": "schedutil",
+    "fanSpeed": 1
+  },
+  "launcher": {
+    "package": "com.retroarch.aarch64",
+    "activity": "com.retroarch.browser.retroactivity.RetroActivityFuture",
+    "core": "genesis_plus_gx"
+  }
+}
